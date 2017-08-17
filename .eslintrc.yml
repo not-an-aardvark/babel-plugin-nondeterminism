@@ -1,0 +1,10 @@
+parserOptions:
+  sourceType: script
+plugins:
+  - node
+extends:
+  - airbnb-base
+  - plugin:node/recommended
+rules:
+  comma-dangle: [error, always-multiline]
+  no-param-reassign: off

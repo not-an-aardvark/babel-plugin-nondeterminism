@@ -1,0 +1,37 @@
+{
+  "name": "babel-plugin-nondeterminism",
+  "version": "1.0.0",
+  "description": "Add a pinch of chance to your code",
+  "main": "index.js",
+  "engines": {
+    "node": ">=4"
+  },
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "lint": "eslint .",
+    "test": "npm run lint && mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/not-an-aardvark/babel-plugin-nondeterminism.git"
+  },
+  "keywords": [
+    "babel"
+  ],
+  "author": "Teddy Katz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/not-an-aardvark/babel-plugin-nondeterminism/issues"
+  },
+  "homepage": "https://github.com/not-an-aardvark/babel-plugin-nondeterminism#readme",
+  "devDependencies": {
+    "babel-plugin-tester": "^4.0.0",
+    "eslint": "^4.4.1",
+    "eslint-config-airbnb-base": "^11.3.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.1.1",
+    "mocha": "^3.5.0"
+  }
+}
